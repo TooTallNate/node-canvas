@@ -39,6 +39,7 @@
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{libc}-{arch}.tar.gz"
   },
   "dependencies": {
+    "bindings": "TooTallNate/node-bindings#webpack",
     "nan": "^2.11.1",
     "node-pre-gyp": "^0.11.0"
   },
